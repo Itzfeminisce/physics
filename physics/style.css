@@ -6,6 +6,21 @@
 
 body{
     background-color: black;
-    overflow: hidden;
+    overflow-x: hidden;
+    padding: 1rem;
+    max-width: 700px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: row wrap;
+
+}
+
+img {
+    flex: 33.33% 1 1;
+    margin: 2px;
 }
 
